@@ -1,0 +1,88 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "de-DE": {
+          "summary": "Generiert einen Rülpser (Aufstoßer)",
+          "examplePhrases": [
+            "Alexa, starte Rülpsgenerator",
+            "Alexa, öffne Rülpsgenerator",
+            ""
+          ],
+          "keywords": [
+            "Rülpser",
+            "Aufstoßer",
+            "Bäuerchen"
+          ],
+          "name": "Rülpsgenerator",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/8200/19a47419ca224d8bb8622c1eda695867/APP_ICON?versionId=E3c3bEV0Wkmr2ZCjWxGRnGRbd_Su7HkF&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1535491281&Signature=HFDHJyZUXO5%2FVo26xudgeMfcfbM%3D",
+          "description": "Dieser Skill generiert auf Kommando einen Rülpser (Aufstoßer)",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/47ed/20019ad961914bc9a337055186e394c9/APP_ICON_LARGE?versionId=nPhtSG0VQxMOHrN3Lo.BLLtpCkjL4NO8&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1535491281&Signature=46fpnsDjIkYfho823YrWlUWmO3U%3D"
+        },
+        "en-US": {
+          "summary": "Generates a burp",
+          "examplePhrases": [
+            "Alexa, launch burpgenerator",
+            "Alexa, open burpgenerator",
+            ""
+          ],
+          "keywords": [],
+          "name": "Burp generator",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/ef20/a58f71fb3ba34e6a9300f9460f12cceb/APP_ICON?versionId=Tbntkn0Rhxti0TxzcQqTgbc1fws23SHV&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1535491281&Signature=B8KoTd1WLVeFhftjiknYmmxJQ%2BE%3D",
+          "description": "This skill generates a burp on command",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1b97/a8116e788701436ebecade1a587c207b/APP_ICON_LARGE?versionId=UU4ys.iOg1ft.2DKuk41svD.fHwYWYO_&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1535491281&Signature=Jpp8N3FBgD25xjWHaflAWlO03uM%3D"
+        },
+        "en-GB": {
+          "summary": "Generates a burp",
+          "examplePhrases": [
+            "Alexa, launch burp generator",
+            "Alexa, open burpgenerator",
+            ""
+          ],
+          "keywords": [],
+          "name": "Burp Generator",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/183d/bbc4d175f83f4400a43898880888dfde/APP_ICON?versionId=i7hSSEyery.7blxVN1hyI400.r6VUNFs&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1535491281&Signature=H0TSnLISwJmnMQzA%2Bt2BmojRZPY%3D",
+          "description": "This skill generates a burp on command",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/4367/d95e99e8b8d74ad58bad5c374d6c6464/APP_ICON_LARGE?versionId=iG9D_nNPvpVNwFwHpK8kjZHTWCEafaSp&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1535491281&Signature=n0%2BCX3Y5Zb0Vz3p64Fmj7cEA0TI%3D"
+        },
+        "en-CA": {
+          "summary": "Generates a burp",
+          "examplePhrases": [
+            "Alexa, launch burp generator",
+            "Alexa, open burpgenerator",
+            ""
+          ],
+          "keywords": [],
+          "name": "Burp Generator",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/183d/bbc4d175f83f4400a43898880888dfde/APP_ICON?versionId=i7hSSEyery.7blxVN1hyI400.r6VUNFs&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1535491281&Signature=H0TSnLISwJmnMQzA%2Bt2BmojRZPY%3D",
+          "description": "This skill generates a burp on command",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/4367/d95e99e8b8d74ad58bad5c374d6c6464/APP_ICON_LARGE?versionId=iG9D_nNPvpVNwFwHpK8kjZHTWCEafaSp&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1535491281&Signature=n0%2BCX3Y5Zb0Vz3p64Fmj7cEA0TI%3D"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "No special instructions required.",
+      "category": "MUSIC_AND_AUDIO_KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "./lambda/eu-west-1_playRuelpsSound"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
