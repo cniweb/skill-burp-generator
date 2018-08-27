@@ -67,7 +67,7 @@
     "apis": {
       "custom": {
         "endpoint": {
-          "sourceDir": "./lambda/eu-west-1_playRuelpsSound"
+          "sourceDir": "./lambda/eu-west-1_burp-generator"
         },
         "interfaces": [
           {
